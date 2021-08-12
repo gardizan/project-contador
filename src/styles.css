@@ -1,0 +1,38 @@
+@import url('//fonts.googleapis.com/css2?family=Georama:wght@300&display=swap');
+
+* {
+    font-family: 'Georama', sans-serif;
+    color: #fff;
+    font-size: 32px;
+}
+
+body {
+    background: #039dfc;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+p {
+    text-align: center;
+}
+
+.container-btn button {
+    width: 160px;
+    height: 40px;
+    border: solid 0;
+    border-radius: 4px;
+    margin: 4px 8px;
+    background: #0b344d;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.container-btn button:hover {
+    box-shadow: 0 0 10px 0 #0b344d;
+}
